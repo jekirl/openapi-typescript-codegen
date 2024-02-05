@@ -1,3 +1,7 @@
+⚠️ this is just a fork to add some options to `fetch` client. See last few commits on this branch:
+
+https://github.com/justin-calleja/openapi-typescript-codegen/tree/nextjsfetch
+
 # OpenAPI Typescript Codegen
 
 [![NPM][npm-image]][npm-url]
@@ -38,7 +42,7 @@ $ openapi --help
     -V, --version             output the version number
     -i, --input <value>       OpenAPI specification, can be a path, url or string content (required)
     -o, --output <value>      Output directory (required)
-    -c, --client <value>      HTTP client to generate [fetch, xhr, node, axios, angular] (default: "fetch")
+    -c, --client <value>      HTTP client to generate [nextjs_fetch, fetch, xhr, node, axios, angular] (default: "fetch")
     --name <value>            Custom client class name
     --useOptions              Use options instead of arguments
     --useUnionTypes           Use union types instead of enums
